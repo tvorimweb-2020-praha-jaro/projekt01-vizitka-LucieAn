@@ -8,8 +8,10 @@ h1 {
 
 
 body {
+    height: 100px;
     line-height: 1.6;
     padding: 4em 1em;
+    margin: 20px auto;
     max-width: 60em;
     font-family: 'Crimson Text', serif;
     font-size: 20px;
@@ -27,12 +29,37 @@ body {
     height: 270px;
     float: left;
     border-radius: 20px;
+    border: rgb(89, 136, 224) solid 3px;
     margin-top: 1em;
     margin-left: 80px;
     margin-right: 50px;
     overflow: auto;
 }
 
-.ukol {
-    font-style: italic;
+.links a {
+    color: black;
+}
+
+
+
+.menu li {
+    display: inline-block;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu a {
+    color: black;
+    display: inline-block;
+    padding: 20px;
+}
+
+a:hover,
+a:focus,
+a:active {
+    background-color: cornflowerblue;
 }
